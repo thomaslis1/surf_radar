@@ -16,7 +16,7 @@ def send_telegram(message: str):
 WATERGATE = (50.4445, -5.0398)
 CROYDE = (51.1278, -4.2286)
 
-THRESHOLD = 11.0  # seconds
+THRESHOLD = 14.0  # seconds
 DAYS_AHEAD = 5
 
 def swell_period_on_date(lat, lon, target_date):
